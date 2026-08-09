@@ -1,0 +1,62 @@
+{
+  "name": "Calenso - Smart Scheduling Made Simple",
+  "short_name": "Calenso",
+  "description": "Free online scheduling and appointment booking software. Create events, set availability, and let others book time with you.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Calenso Dashboard"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Calenso Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your scheduling dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/dashboard.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Create Event",
+      "short_name": "New Event",
+      "description": "Create a new event type",
+      "url": "/events?create=true",
+      "icons": [{ "src": "/icons/event.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Meetings",
+      "short_name": "Meetings",
+      "description": "View your scheduled meetings",
+      "url": "/meetings",
+      "icons": [{ "src": "/icons/meetings.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

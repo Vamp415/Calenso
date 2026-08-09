@@ -1,0 +1,57 @@
+# Robots.txt for Calenso - https://calensothinkpixel.org
+# Last updated: 2024
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /events
+Disallow: /meetings
+Disallow: /availability
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow specific bots full access to public pages
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard
+Disallow: /events
+Disallow: /meetings
+Disallow: /availability
+
+User-agent: Bingbot
+Allow: /
+Disallow: /dashboard
+Disallow: /events
+Disallow: /meetings
+Disallow: /availability
+
+User-agent: Slurp
+Allow: /
+Disallow: /dashboard
+Disallow: /events
+Disallow: /meetings
+Disallow: /availability
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://calenso.thinkpixel.org/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Host directive (for Yandex)
+Host: https://calensothinkpixel.org

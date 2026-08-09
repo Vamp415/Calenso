@@ -1,0 +1,5 @@
+# Netlify Redirects for SPA
+# https://docs.netlify.com/routing/redirects/
+
+# Handle client-side routing - serve index.html for all routes
+/*    /index.html   200

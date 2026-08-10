@@ -469,7 +469,7 @@ max-width: 1400px;         /* Wide Screens */
 ## Folder Structure
 
 ```
-Calenso-Private/
+Calenso/
 ├── backend/                           # Backend application
 │   ├── actions/                       # Business logic actions
 │   │   ├── availability.js           # Availability operations
